@@ -59,7 +59,7 @@ seed.set <- 191215
 # start ==================================================================================================== # 
 # load data --------------------------------------------------------------------------------------------------
 data.a <- read.csv(file.path(data_in_dir,"data_pt_a.csv")) #head(data.a)
-data.b <- read.csv(file.path(data_in_dir,"data_pt_a.csv")) #View(data.b)
+data.b <- read.csv(file.path(data_in_dir,"data_pt_b.csv")) #View(data.b)
 
 # check data structure, part 1 
 summary(data.a)
